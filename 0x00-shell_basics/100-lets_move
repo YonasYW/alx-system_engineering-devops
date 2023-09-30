@@ -1,0 +1,2 @@
+#!/bin/bash
+mkdir -p /tmp/u \n mv [A-Z]* /tmp/u
