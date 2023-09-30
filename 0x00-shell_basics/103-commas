@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1A > tmp.txt \n paste -sd"," tmp.txt \n echo \n rm tmp.txt
