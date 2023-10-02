@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -u < <(sort < <(grep -oE '\w+'))
+echo "$(cut -d ' ' -f 2 <<< "$(grep -v "^2 " <<< "$(uniq -c <<< "$(sort -u)")")")"
