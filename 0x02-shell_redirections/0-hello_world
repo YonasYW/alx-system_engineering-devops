@@ -1,2 +1,2 @@
-0-hello_world
-print("Hello, World")
+#!/bin/bash
+echo "Hello, World"
