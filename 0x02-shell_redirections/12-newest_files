@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 10 < <(ls -lt < <(grep -v '^d'))
+head -n 1 < <(ls -t)
