@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -name '.*' -not -path '*/.*' \n wc -l
+wc -l < <(find . -mindepth 1 -type d)
