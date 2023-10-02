@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "(Ôo)'" 
+echo "(Ôo)'" \n ls 1-confused_smiley 
