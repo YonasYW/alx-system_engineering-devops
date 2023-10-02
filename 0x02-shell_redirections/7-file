@@ -1,2 +1,2 @@
 #!/bin/bash
-prntf "Best School\n" > '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+touch \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) \n echo "Best School" >> \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
