@@ -1,0 +1,2 @@
+#!/bin/bash
+head -n 11 <(sort -rn <(uniq -c <(sort <(cut -f1 access_logs.tsv))))
